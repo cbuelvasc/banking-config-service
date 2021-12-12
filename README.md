@@ -32,3 +32,11 @@ After building the application, you can also run it from the Java CLI:
 ```bash
 java -jar build/libs/config-service-0.0.1-SNAPSHOT.jar
 ```
+## Docker Registry
+```bash
+docker tag config-service:0.0.1-SNAPSHOT cbuelvasc/config-service:0.0.1-SNAPSHOT
+```
+
+```bash
+docker push cbuelvasc/config-service:0.0.1-SNAPSHOT
+```
